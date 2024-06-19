@@ -1,0 +1,52 @@
+{
+  "services": [
+    {
+      "category": "Leikkaukset",
+      "services": [
+        {
+          "title": "Kampaamoleikkaus",
+          "description": "Hiusten siistiminen tai samaan malliin leikkaus. Sisältää pesun.",
+          "price": "40€"
+        },
+        {
+          "title": "Otsatukan leikkaus",
+          "description": "Otsatukan leikkaus.",
+          "price": "20€",
+          "next_available_time": "huomenna 12.00"
+        },
+        {
+          "title": "Mallinmuutosleikkaus",
+          "description": "Hiusten leikkaus uuteen malliin tarkoittaen, että hiuksiin tehdään merkittävä muutos.",
+          "price": "48€",
+          "next_available_time": "huomenna 12.00"
+        },
+        {
+          "title": "Lasten hiustenleikkaus",
+          "description": "Lasten hiustenleikkaus. Alle 11 vuotiaille.",
+          "price": "25€",
+          "next_available_time": "huomenna 12.00"
+        }
+      ]
+    },
+    {
+      "category": "Värjäykset",
+      "services": [
+        {
+          "title": "Väri ja leikkaus (lyhyet)",
+          "description": "Hiusten värjäys ja leikkaus, niskahiukset leukalinjan yläpuolella. Sisältää pesun.",
+          "price": "110€"
+        },
+        {
+          "title": "Väri ja leikkaus (keskipitkät)",
+          "description": "Hiusten värjäys ja leikkaus, hiukset olkapäiden yläpuolella. Sisältää pesun.",
+          "price": "125€"
+        },
+        {
+          "title": "Värin ylläpito (pitkät)",
+          "description": "Hiusten värjäys ja leikkaus, hiukset lapaluiden yläpuolella. Sisältää pesun.",
+          "price": "133.9€"
+        }
+      ]
+    }
+  ]
+}
