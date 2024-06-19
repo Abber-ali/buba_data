@@ -1,65 +1,491 @@
 {
-  "categories": [
-    {
-      "category": "Leikkaukset",
-      "services": [
-        {
-          "title": "Kampaamoleikkaus",
-          "description": "Hiusten siistiminen tai samaan malliin leikkaus. Sisältää pesun.",
-          "price": "40€"
-        },
-        {
-          "title": "Otsatukan leikkaus",
-          "description": "Otsatukan leikkaus.",
-          "price": "20€",
-          "next_available_time": "huomenna 12.00"
-        },
-        {
-          "title": "Mallinmuutosleikkaus",
-          "description": "Hiusten leikkaus uuteen malliin tarkoittaen, että hiuksiin tehdään merkittävä muutos.",
-          "price": "48€",
-          "next_available_time": "huomenna 12.00"
-        },
-        {
-          "title": "Lasten hiustenleikkaus",
-          "description": "Lasten hiustenleikkaus. Alle 11 vuotiaille.",
-          "price": "25€",
-          "next_available_time": "huomenna 12.00"
-        }
-      ]
-    },
-    {
-      "category": "Värjäykset",
-      "services": [
-        {
-          "title": "Väri ja leikkaus (lyhyet)",
-          "description": "Hiusten värjäys ja leikkaus, niskahiukset leukalinjan yläpuolella. Sisältää pesun.",
-          "price": "110€"
-        },
-        {
-          "title": "Väri ja leikkaus (keskipitkät)",
-          "description": "Hiusten värjäys ja leikkaus, hiukset olkapäiden yläpuolella. Sisältää pesun.",
-          "price": "125€"
-        },
-        // Other services in the "Värjäykset" category...
-      ]
-    },
-    {
-      "category": "Monivärit/raidat",
-      "services": [
-        {
-          "title": "Moniväri ja leikkaus (lyhyet)",
-          "description": "Monivärivärjäys ja leikkaus, niskahiukset leukalinjan yläpuolella. Sisältää pesun.",
-          "price": "104€"
-        },
-        {
-          "title": "Moniväri ja leikkaus (keskipitkät)",
-          "description": "Monivärivärjäys ja leikkaus, hiukset olkapäiden yläpuolella. Sisältää pesun.",
-          "price": "113€"
-        },
-        // Other services in the "Monivärit/raidat" category...
-      ]
-    },
-    // Other categories...
-  ]
+  {
+    category: "Leikkaukset",
+    services: [
+      {
+        title: "Kampaamoleikkaus",
+        description:
+          "Hiusten siistiminen tai samaan malliin leikkaus. Sisältää pesun.",
+        price: "40€",
+      },
+      {
+        title: "Otsatukan leikkaus",
+        description: "Otsatukan leikkaus.",
+        price: "20€",
+        next_available_time: "huomenna 12.00",
+      },
+      {
+        title: "Mallinmuutosleikkaus",
+        description:
+          "Hiusten leikkaus uuteen malliin tarkoittaen, että hiuksiin tehdään merkittävä muutos.",
+        price: "48€",
+        next_available_time: "huomenna 12.00",
+      },
+      {
+        title: "Lasten hiustenleikkaus",
+        description: "Lasten hiustenleikkaus. Alle 11 vuotiaille.",
+        price: "25€",
+        next_available_time: "huomenna 12.00",
+      },
+    ],
+  },
+  {
+    category: "Värjäykset",
+    services: [
+      {
+        title: "Väri ja leikkaus (lyhyet)",
+        description:
+          "Hiusten värjäys ja leikkaus, niskahiukset leukalinjan yläpuolella. Sisältää pesun.",
+        price: "110€",
+      },
+      {
+        title: "Väri ja leikkaus (keskipitkät)",
+        description:
+          "Hiusten värjäys ja leikkaus, hiukset olkapäiden yläpuolella. Sisältää pesun.",
+        price: "125€",
+      },
+      {
+        title: "Värin ylläpito (pitkät)",
+        description:
+          "Hiusten värjäys ja leikkaus, hiukset lapaluiden yläpuolella. Sisältää pesun.",
+        price: "133.9€",
+      },
+      {
+        title: "Väri ja leikkaus (extrapitkät)",
+        description:
+          "Hiusten värjäys ja leikkaus, hiukset lapaluiden alapuolella. Sisältää pesun.",
+        price: "134.9€",
+      },
+      {
+        title: "Tyviväri ja leikkaus",
+        description:
+          "Tyviväri (enintään 3 cm) ja leikkaus. Ei koske esivaalennusta vaativia värjäyksiä. Sisältää pesun.",
+        price: "105€",
+      },
+      {
+        title: "Tyviväri",
+        description:
+          "Tyviväri (enintään 3 cm). Ei koske esivaalennusta vaativia värjäyksiä. Sisältää pesun.",
+        price: "80€",
+      },
+      {
+        title: "Väri (lyhyet)",
+        description:
+          "Hiusten värjäys, niskahiukset leukalinjan yläpuolella. Sisältää pesun.",
+        price: "85€",
+      },
+      {
+        title: "Väri (keskipitkät)",
+        description:
+          "Hiusten värjäys, hiukset olkapäiden yläpuolella. Sisältää pesun.",
+        price: "90€",
+      },
+      {
+        title: "Väri (pitkät)",
+        description:
+          "Hiusten värjäys, hiukset lapaluiden yläpuolella. Sisältää pesun.",
+        price: "105€",
+      },
+      {
+        title: "Väri (extrapitkät)",
+        description:
+          "Hiusten värjäys, hiukset lapaluiden alapuolella. Sisältää pesun.",
+        price: "113€",
+      },
+    ],
+  },
+  {
+    category: "Monivärit/raidat",
+    services: [
+      {
+        title: "Moniväri ja leikkaus (lyhyet)",
+        description:
+          "Monivärivärjäys ja leikkaus, niskahiukset leukalinjan yläpuolella. Sisältää pesun.",
+        price: "104€",
+      },
+      {
+        title: "Moniväri ja leikkaus (keskipitkät)",
+        description:
+          "Monivärivärjäys ja leikkaus, hiukset olkapäiden yläpuolella. Sisältää pesun.",
+        price: "113€",
+      },
+      {
+        title: "Moniväri ja leikkaus (pitkät)",
+        description:
+          "Monivärivärjäys ja leikkaus, hiukset lapaluiden yläpuolella. Sisältää pesun.",
+        price: "143€",
+      },
+      {
+        title: "Moniväri ja leikkaus (extrapitkät)",
+        description:
+          "Monivärivärjäys ja leikkaus, hiukset lapaluiden alapuolella. Sisältää pesun.",
+        price: "167€",
+      },
+      {
+        title: "Raidat ja leikkaus (lyhyet)",
+        description:
+          "Raidat ja leikkaus, niskahiukset leukalinjan yläpuolella. Sisältää pesun.",
+        price: "100€",
+      },
+      {
+        title: "Raidat ja leikkaus (keskipitkät)",
+        description:
+          "Raidat ja leikkaus, hiukset olkapäiden yläpuolella. Sisältää pesun.",
+        price: "115€",
+      },
+      {
+        title: "Raidat ja leikkaus (pitkät)",
+        description:
+          "Raidat ja leikkaus, hiukset lapaluiden yläpuolella. Sisältää pesun.",
+        price: "152€",
+      },
+      {
+        title: "Raidat ja leikkaus (extrapitkät)",
+        description:
+          "Raidat ja leikkaus, hiukset lapaluiden alapuolella. Sisältää pesun.",
+        price: "159.9€",
+      },
+      {
+        title: "Moniväri (lyhyet)",
+        description:
+          "Monivärivärjäys, niskahiukset leukalinjan yläpuolella. Sisältää pesun.",
+        price: "95€",
+      },
+      {
+        title: "Moniväri (keskipitkät)",
+        description:
+          "Monivärivärjäys, hiukset olkapäiden yläpuolella. Sisältää pesun.",
+        price: "104.9€",
+      },
+      {
+        title: "Moniväri (pitkät)",
+        description:
+          "Monivärivärjäys, hiukset lapaluiden yläpuolella. Sisältää pesun.",
+        price: "130.9€",
+      },
+      {
+        title: "Moniväri (extrapitkät)",
+        description:
+          "Monivärivärjäys, hiukset lapaluiden alapuolella. Sisältää pesun.",
+        price: "155€",
+      },
+      {
+        title: "Raidat (lyhyet)",
+        description:
+          "Raidat, niskahiukset leukalinjan yläpuolella. Sisältää pesun.",
+        price: "88.9€",
+      },
+      {
+        title: "Raidat (keskipitkät)",
+        description: "Raidat, hiukset olkapäiden yläpuolella. Sisältää pesun.",
+        price: "98.5€",
+      },
+      {
+        title: "Raidat (pitkät)",
+        description: "Raidat, hiukset lapaluiden yläpuolella. Sisältää pesun.",
+        price: "118€",
+      },
+      {
+        title: "Raidat (extrapitkät)",
+        description: "Raidat, hiukset lapaluiden alapuolella. Sisältää pesun.",
+        price: "130€",
+      },
+      {
+        title: "Balayage lyhyet tai keskipitkät hiukset",
+        description:
+          "Vapaan käden tekniikalla kauniisti liukuva hiustenvärjäys esimerkiksi tummasta vaaleanpaan värin tai mustasta kirkkaan punaiseen.",
+        price: "155€",
+      },
+      {
+        title: "Balayage pitkät tai extrapitkät hiukset",
+        description:
+          "Vapaan käden tekniikalla kauniisti liukuva hiustenvärjäys esimerkiksi tummasta vaaleanpaan värin tai mustasta kirkkaan punaiseen.",
+        price: "185€",
+      },
+      {
+        title: "osa raidotus",
+        description:
+          "pääliosan raidoitus tai hiusrajojen raidotus tai muutama raita etuosoihin tai vaikapa niskaan.",
+        price: "95€",
+      },
+      {
+        title: "Tyviraidat ja leikkaus",
+        description:
+          "hiusten tyvikasvua max 5cm raidoitetaan, jotta tyvikasvu ei näkyisi niin silkeästi se on hyvää ratkaisu myös jos ei koko ajan halua värjät...",
+        price: "128€",
+      },
+      {
+        title: "Koko hiuksen vaalennuskäsittely extrapitkät",
+        description:
+          "jos hiukset ovat alaselkään ja paksut, jotta aika riittää varmasti isoon hiusmuutokseen.",
+        price: "300€",
+      },
+      {
+        title: "Faceframing",
+        description: "Raidat/vaalennus kehystämään ksvoja.",
+        price: "85€",
+      },
+    ],
+  },
+  {
+    category: "Kampaukset ja meikit",
+    services: [
+      {
+        title: "Hiustenpesu ja föönaus",
+        description:
+          "Voisit varmaankin melkein tehdä tämän itsekin... Mutta eihän se olisi läheskään niin hauskaa!",
+        price: "40€",
+      },
+      {
+        title: "Nutturakampaus",
+        description: "",
+        price: "80€",
+      },
+      {
+        title: "Kiharakampaus",
+        description: "",
+        price: "55€",
+      },
+      {
+        title: "Hääkampaus",
+        description: "Saavuthan puhtailla hiuksilla.",
+        price: "139€",
+      },
+      {
+        title: "Pikakampaus",
+        description:
+          "Pikakampaus piristää päivääsi tai viimeistelee bilelookisi! Ei sisällä pesua.",
+        price: "40€",
+      },
+      {
+        title: "Kampauksen suunnittelu",
+        description: "",
+        price: "55€",
+      },
+      {
+        title: "Juhlakampaus",
+        description:
+          "Tyylikäs juhlakampaus kruunaa lookisi! Saavuthan puhtailla hiuksilla.",
+        price: "87€",
+      },
+      {
+        title: "Päivämeikki",
+        description: "Kevyt, raikas ja heleä päivämeikki.",
+        price: "65€",
+      },
+      {
+        title: "Juhlameikki",
+        description: "Säteilevänä juhliin!",
+        price: "95€",
+      },
+      {
+        title: "Häämeikki",
+        description: "Häämeikki.",
+        price: "133€",
+      },
+    ],
+  },
+  {
+    category: "Vaalennukset",
+    services: [
+      {
+        title: "vaalennuspaketti (lyhyet/tyvi)",
+        description:
+          "Sisältää vaalennuksen, sävyteen, suoja-aineen ja leikkauksen.",
+        price: "120€",
+      },
+      {
+        title: "vaalennuspaketti (puolipitkät)",
+        description:
+          "Sisältää vaalennuksen, sävyteen, suoja-aineen ja leikkauksen.",
+        price: "161€",
+      },
+      {
+        title: "vaalennuspaketti (pitkät)",
+        description:
+          "Sisältää vaalennuksen, sävyteen, suoja-aineen ja leikkauksen.",
+        price: "197€",
+      },
+      {
+        title: "vaalennuspaketti (extrapitkät)",
+        description:
+          "Sisältää vaalennuksen, sävyteen, suoja-aineen ja leikkauksen.",
+        price: "233€",
+      },
+      {
+        title: "vaalennuspaketti tyvi (max. 3 cm)",
+        description:
+          "vaalennuskokonaisuus. sisältää vaalennuksen, sävytyksen, suoja-aineen ja leikkauksen.",
+        price: "99€",
+      },
+    ],
+  },
+  {
+    category: "Ripset/kulmat",
+    services: [
+      {
+        title: "Ripsien värjäys",
+        description: "Ripsien värjäys kestovärillä.",
+        price: "20€",
+      },
+      {
+        title: "Kulmien värjäys ja muotoilu",
+        description: "Kulmien muotoilu ja värjäys kestovärillä.",
+        price: "25€",
+      },
+      {
+        title: "Ripsien ja kulmien värjäys ja muotoilu",
+        description:
+          "Ripsien ja kulmien värjäys kestovärillä sekä kulmien muotoilu.",
+        price: "35€",
+      },
+      {
+        title: "Kulmakarvojen muotoilu lankatekniikalla",
+        description: "Lankatekniikalla",
+        price: "25€",
+      },
+      {
+        title: "Kulmakarvojen väri ja muotoilu lankatekniikalla",
+        description: "Lankatekniikalla.",
+        price: "35€",
+      },
+      {
+        title: "karvojen poisto koko kasvoilta.",
+        description: "Lankatekniikalla.",
+        price: "40€",
+      },
+      {
+        title: "Karvojen poisto ylähuulesta/leuasta.",
+        description: "Lankatekniikalla.",
+        price: "15€",
+      },
+    ],
+  },
+  {
+    category: "Hiushoidot",
+    services: [
+      {
+        title: "Hiusten ja hiuspohjan hoitopalvelut",
+        description:
+          "Tehohoito on rentouttuva käsittely, jolla hoidetaan sekä hiuksia että hiuspohjaa. Se poistaa hilseen, estää hiusten sähköistymistä, antaa ...",
+        price: "69€",
+      },
+      {
+        title: "SensiDO Simplex Bonder -tehohoito (lyhyet)",
+        description:
+          "Uusi innovatiivinen teknologia suojaa hiuksen rikkisidoksia ja rakennepaikkaa jo katkenneet sidokset ennennäkemättömällä tavalla vah...",
+        price: "57€",
+      },
+      {
+        title: "SensiDO Simplex Bonder -tehohoito (keskipitkät)",
+        description:
+          "Uusi innovatiivinen teknologia suojaa hiuksen rikkisidoksia ja rakennepaikkaa jo katkenneet sidokset ennennäkemättömällä tavalla vah...",
+        price: "66€",
+      },
+
+      {
+        title: "SensiDO Simplex Bonder -tehohoito (pitkät)",
+        description:
+          "Uusi innovatiivinen teknologia suojaa hiuksen rikkisidoksia ja rakennepaikkaa jo katkenneet sidokset ennennäkemättömällä tavalla vah....",
+        price: "74€",
+      },
+    ],
+  },
+  {
+    category: "Hiustenpidennykset ja permanentit",
+    services: [
+      {
+        title: "Permanentti ja leikkaus (lyhyet)",
+        description:
+          "Permanentti ja leikkaus, niskahiukset leukalinjan yläpuolella. Sisältää pesun.",
+        price: "93€",
+      },
+      {
+        title: "Permanentti ja leikkaus (keskipitkät)",
+        description:
+          "Permanentti ja leikkaus, hiukset olkapäiden yläpuolella. Sisältää pesun.",
+        price: "120€",
+      },
+      {
+        title: "Permanentti ja leikkaus (pitkät)",
+        description:
+          "Permanentti ja leikkaus, hiukset lapaluiden yläpuolella. Sisältää pesun.",
+        price: "138€",
+      },
+      {
+        title: "Permanentti ja leikkaus (extrapitkät)",
+        description:
+          "Permanentti ja leikkaus, hiukset lapaluiden alapuolella. Sisältää pesun.",
+        price: "170€",
+      },
+      {
+        title: "osapermanentti ja leikkaus (lyhyet)",
+        description: "permanentti osaan hiuksia.",
+        price: "95€",
+      },
+    ],
+  },
+
+  {
+    category: "Kynnet",
+    services: [
+      {
+        title: "Geelilakkaus uudet",
+        description:
+          "Geelilakkaus antaa upean ja kestävän lakan jopa 3 viikoksi. Ei sisällä vanhan geelilakkauksen poistoa tai huoltoa.",
+        price: "55€",
+      },
+      {
+        title: "Kestolakkaus ranskalainen",
+        description:
+          "kestolakkaus antaa upean ja kestävän lakan jopa 3 viikoksi. Ei sisällä vanhan lakan poistoa/huoltoa, eikä pituutta lisätä.",
+        price: "55€",
+      },
+      {
+        title: "Rakennekynnet uudet",
+        description:
+          "Rakennekynnet tehdään omien kynsien päälle geelillä . Hinta riippuu pituuta",
+        price: "77€",
+      },
+      {
+        title: "Rakennekynnet huolto",
+        description:
+          "Geeli- tai akryylikynsien huolto. Ei sisällä vanhan kynnen poistoa.",
+        price: "80€",
+      },
+      {
+        title: "Geelilakkaus huolto",
+        description:
+          "Geelilakkaus antaa upean ja kestävän lakan jopa 3 viikoksi. Sisältää myös vanhan geelilakkauksen poiston.",
+        price: "60€",
+      },
+      {
+        title: "kestolakan poisto",
+        description: "",
+        price: "30€",
+      },
+      {
+        title: "Rakennekynsien poisto",
+        description:
+          "Raknneen poistetaan. Sisältää kynnen sistimisen ja kynsinauhojen öljymisen.",
+        price: "38€",
+      },
+      {
+        title: "Luonnonkynnen geelaus",
+        description:
+          "luonnonkynnen geelaus antaa upean ja kestävän lakan jopa 3-5 viikoksi. Ei sisällä vanhan geelilakkauksen poistoa tai huoltoa. Eikä kyn...",
+        price: "70€",
+      },
+      {
+        title: "Luonnonkynnen geelaushuolto",
+        description: "sisältää myös vanhan geelilakkauksen poiston.",
+        price: "60€",
+      },
+      {
+        title: "1-2 kynnen korjaus",
+        description: "Huolto sisältää vanhan lakan poiston ja uuden laiton.",
+        price: "10€",
+      },
+    ],
+  },
 }
