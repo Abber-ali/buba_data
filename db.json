@@ -1,13 +1,5 @@
 [
   {
     "category": "Leikkaukset",
-    "services": [
-     
-      {
-        "title": "Lasten hiustenleikkaus",
-        "description": "Lasten hiustenleikkaus. Alle 11 vuotiaille.",
-        "price": "25€",
-        "next_available_time": "huomenna 12.00"
-      }
-    ]
+  
   }]
