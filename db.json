@@ -4,28 +4,23 @@
     services: [
       {
         title: "Kampaamoleikkaus",
-        description:
-          "Hiusten siistiminen tai samaan malliin leikkaus. Sisältää pesun.",
+        description: "Hiusten siistiminen tai samaan malliin leikkaus. Sisältää pesun.",
         price: "40€",
       },
       {
         title: "Otsatukan leikkaus",
         description: "Otsatukan leikkaus.",
         price: "20€",
-        next_available_time: "huomenna 12.00",
       },
       {
         title: "Mallinmuutosleikkaus",
-        description:
-          "Hiusten leikkaus uuteen malliin tarkoittaen, että hiuksiin tehdään merkittävä muutos.",
+        description: "Hiusten leikkaus uuteen malliin tarkoittaen, että hiuksiin tehdään merkittävä muutos.",
         price: "48€",
-        next_available_time: "huomenna 12.00",
       },
       {
         title: "Lasten hiustenleikkaus",
         description: "Lasten hiustenleikkaus. Alle 11 vuotiaille.",
         price: "25€",
-        next_available_time: "huomenna 12.00",
       },
     ],
   },
