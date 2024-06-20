@@ -1,56 +1,29 @@
-{
-  "variable1": "valuse1",
-    "variablse1": "valsue1",
-    "variablxze1": "valuce1",
-    "variablze1": "valucse1",
-    "variablxe1": "valsdue1",
-    "variabxle1": "valcsue1",
-    "variable1": "valuse1",
-    "variablse1": "valsue1",
-    "variablxze1": "valuce1",
-    "variablze1": "valucse1",
-    "variablxe1": "valsdue1",
-    "variabxle1": "valcsue1",  "variable1": "valuse1",
-    "variablse1": "valsue1",
-    "variablxze1": "valuce1",
-    "variablze1": "valucse1",
-    "variablxe1": "valsdue1",
-    "variabxle1": "valcsue1",
-    "variable1": "valuse1",
-    "variablse1": "valsue1",
-    "variablxze1": "valuce1",
-    "variablze1": "valucse1",
-    "variablxe1": "valsdue1",
-    "variabxle1": "valcsue1",  "variable1": "valuse1",
-    "variablse1": "valsue1",
-    "variablxze1": "valuce1",
-    "variablze1": "valucse1",
-    "variablxe1": "valsdue1",
-    "variabxle1": "valcsue1",
-    "variable1": "valuse1",
-    "variablse1": "valsue1",
-    "variablxze1": "valuce1",
-    "variablze1": "valucse1",
-    "variablxe1": "valsdue1",
-    "variabxle1": "valcsue1",
-    "variable1": "valuse1",
-    "variablse1": "valsue1",
-    "variablxze1": "valuce1",
-    "variablze1": "valucse1",
-    "variablxe1": "valsdue1",
-    "variabxle1": "valcsue1",
-    "variable1": "valuse1",
-    "variablse1": "valsue1",
-    "variablxze1": "valuce1",
-    "variablze1": "valucse1",
-    "variablxe1": "valsdue1",
-    "variabxle1": "valcsue1",
-    "variable1": "valuse1",
-    "variablse1": "valsue1",
-    "variablxze1": "valuce1",
-    "variablze1": "valucse1",
-    "variablxe1": "valsdue1",
-    "variabxle1": "valcsue1",
-
-
-}
+[
+  {
+    "category": "Leikkaukset",
+    "services": [
+      {
+        "title": "Kampaamoleikkaus",
+        "description": "Hiusten siistiminen tai samaan malliin leikkaus. Sisältää pesun.",
+        "price": "40€"
+      },
+      {
+        "title": "Otsatukan leikkaus",
+        "description": "Otsatukan leikkaus.",
+        "price": "20€",
+        "next_available_time": "huomenna 12.00"
+      },
+      {
+        "title": "Mallinmuutosleikkaus",
+        "description": "Hiusten leikkaus uuteen malliin tarkoittaen, että hiuksiin tehdään merkittävä muutos.",
+        "price": "48€",
+        "next_available_time": "huomenna 12.00"
+      },
+      {
+        "title": "Lasten hiustenleikkaus",
+        "description": "Lasten hiustenleikkaus. Alle 11 vuotiaille.",
+        "price": "25€",
+        "next_available_time": "huomenna 12.00"
+      }
+    ]
+  }]
