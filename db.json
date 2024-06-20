@@ -1,4 +1,190 @@
 [
+ {
+    "category": "Leikkaukset",
+    "services": [
+      {
+        "title": "Kampaamoleikkaus",
+        "description": "Hiusten siistiminen tai samaan malliin leikkaus. Sisältää pesun.",
+        "price": "40€"
+      },
+      {
+        "title": "Otsatukan leikkaus",
+        "description": "Otsatukan leikkaus.",
+        "price": "20€",
+        "next_available_time": "huomenna 12.00"
+      },
+      {
+        "title": "Mallinmuutosleikkaus",
+        "description": "Hiusten leikkaus uuteen malliin tarkoittaen, että hiuksiin tehdään merkittävä muutos.",
+        "price": "48€",
+        "next_available_time": "huomenna 12.00"
+      },
+      {
+        "title": "Lasten hiustenleikkaus",
+        "description": "Lasten hiustenleikkaus. Alle 11 vuotiaille.",
+        "price": "25€",
+        "next_available_time": "huomenna 12.00"
+      }
+    ]
+  },
+  {
+    "category": "Värjäykset",
+    "services": [
+      {
+        "title": "Väri ja leikkaus (lyhyet)",
+        "description": "Hiusten värjäys ja leikkaus, niskahiukset leukalinjan yläpuolella. Sisältää pesun.",
+        "price": "110€"
+      },
+      {
+        "title": "Väri ja leikkaus (keskipitkät)",
+        "description": "Hiusten värjäys ja leikkaus, hiukset olkapäiden yläpuolella. Sisältää pesun.",
+        "price": "125€"
+      },
+      {
+        "title": "Värin ylläpito (pitkät)",
+        "description": "Hiusten värjäys ja leikkaus, hiukset lapaluiden yläpuolella. Sisältää pesun.",
+        "price": "133.9€"
+      },
+      {
+        "title": "Väri ja leikkaus (extrapitkät)",
+        "description": "Hiusten värjäys ja leikkaus, hiukset lapaluiden alapuolella. Sisältää pesun.",
+        "price": "134.9€"
+      },
+      {
+        "title": "Tyviväri ja leikkaus",
+        "description": "Tyviväri (enintään 3 cm) ja leikkaus. Ei koske esivaalennusta vaativia värjäyksiä. Sisältää pesun.",
+        "price": "105€"
+      },
+      {
+        "title": "Tyviväri",
+        "description": "Tyviväri (enintään 3 cm). Ei koske esivaalennusta vaativia värjäyksiä. Sisältää pesun.",
+        "price": "80€"
+      },
+      {
+        "title": "Väri (lyhyet)",
+        "description": "Hiusten värjäys, niskahiukset leukalinjan yläpuolella. Sisältää pesun.",
+        "price": "85€"
+      },
+      {
+        "title": "Väri (keskipitkät)",
+        "description": "Hiusten värjäys, hiukset olkapäiden yläpuolella. Sisältää pesun.",
+        "price": "90€"
+      },
+      {
+        "title": "Väri (pitkät)",
+        "description": "Hiusten värjäys, hiukset lapaluiden yläpuolella. Sisältää pesun.",
+        "price": "105€"
+      },
+      {
+        "title": "Väri (extrapitkät)",
+        "description": "Hiusten värjäys, hiukset lapaluiden alapuolella. Sisältää pesun.",
+        "price": "113€"
+      }
+    ]
+  },
+  {
+    "category": "Monivärit/raidat",
+    "services": [
+      {
+        "title": "Moniväri ja leikkaus (lyhyet)",
+        "description": "Monivärivärjäys ja leikkaus, niskahiukset leukalinjan yläpuolella. Sisältää pesun.",
+        "price": "104€"
+      },
+      {
+        "title": "Moniväri ja leikkaus (keskipitkät)",
+        "description": "Monivärivärjäys ja leikkaus, hiukset olkapäiden yläpuolella. Sisältää pesun.",
+        "price": "113€"
+      },
+      {
+        "title": "Moniväri ja leikkaus (pitkät)",
+        "description": "Monivärivärjäys ja leikkaus, hiukset lapaluiden yläpuolella. Sisältää pesun.",
+        "price": "143€"
+      },
+      {
+        "title": "Moniväri ja leikkaus (extrapitkät)",
+        "description": "Monivärivärjäys ja leikkaus, hiukset lapaluiden alapuolella. Sisältää pesun.",
+        "price": "167€"
+      },
+      {
+        "title": "Raidat ja leikkaus (lyhyet)",
+        "description": "Raidat ja leikkaus, niskahiukset leukalinjan yläpuolella. Sisältää pesun.",
+        "price": "100€"
+      },
+      {
+        "title": "Raidat ja leikkaus (keskipitkät)",
+        "description": "Raidat ja leikkaus, hiukset olkapäiden yläpuolella. Sisältää pesun.",
+        "price": "115€"
+      },
+      {
+        "title": "Raidat ja leikkaus (pitkät)",
+        "description": "Raidat ja leikkaus, hiukset lapaluiden yläpuolella. Sisältää pesun.",
+        "price": "152€"
+      },
+      {
+        "title": "Raidat ja leikkaus (extrapitkät)",
+        "description": "Raidat ja leikkaus, hiukset lapaluiden alapuolella. Sisältää pesun.",
+        "price": "159.9€"
+      },
+      {
+        "title": "Moniväri (lyhyet)",
+        "description": "Monivärivärjäys, niskahiukset leukalinjan yläpuolella. Sisältää pesun.",
+        "price": "95€"
+      },
+      {
+        "title": "Moniväri (keskipitkät)",
+        "description": "Monivärivärjäys, hiukset olkapäiden yläpuolella. Sisältää pesun.",
+        "price": "104.9€"
+      },
+      {
+        "title": "Moniväri (pitkät)",
+        "description": "Monivärivärjäys, hiukset lapaluiden yläpuolella. Sisältää pesun.",
+        "price": "130.9€"
+      },
+      {
+        "title": "Moniväri (extrapitkät)",
+        "description": "Monivärivärjäys, hiukset lapaluiden alapuolella. Sisältää pesun.",
+        "price": "155€"
+      },
+      {
+        "title": "Raidat (lyhyet)",
+        "description": "Raidat, niskahiukset leukalinjan yläpuolella. Sisältää pesun.",
+        "price": "88.9€"
+      },
+      {
+        "title": "Raidat (keskipitkät)",
+        "description": "Raidat, hiukset olkapäiden yläpuolella. Sisältää pesun.",
+        "price": "98.5€"
+      },
+      {
+        "title": "Raidat (pitkät)",
+        "description": "Raidat, hiukset lapaluiden yläpuolella. Sisältää pesun.",
+        "price": "118€"
+      },
+      {
+        "title": "Raidat (extrapitkät)",
+        "description": "Raidat, hiukset lapaluiden alapuolella. Sisältää pesun.",
+        "price": "130€"
+      },
+      {
+        "title": "Balayage lyhyet tai keskipitkät hiukset",
+        "description": "Vapaan käden tekniikalla kauniisti liukuva hiustenvärjäys esimerkiksi tummasta vaaleanpaan värin tai mustasta kirkkaan punaiseen.",
+        "price": "155€"
+      },
+      {
+        "title": "Balayage pitkät tai extrapitkät hiukset",
+        "description": "Vapaan käden tekniikalla kauniisti liukuva hiustenvärjäys esimerkiksi tummasta vaaleanpaan värin tai mustasta kirkkaan punaiseen.",
+        "price": "185€"
+      },
+      {
+        "title": "osa raidotus",
+        "description": "pääliosan raidoitus tai hiusrajojen raidotus tai muutama raita etuosoihin tai vaikapa niskaan.",
+        "price": "95€"
+      },
+      {
+        "title": "TyviraidatHere is a simplified JSON version of your service data without the `const` declaration:
+
+```json
+[
   {
     "category": "Leikkaukset",
     "services": [
