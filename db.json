@@ -4,8 +4,7 @@
     services: [
       {
         title: "Kampaamoleikkaus",
-        description:
-          "Hiusten siistiminen tai samaan malliin leikkaus. Sisältää pesun.",
+        description: "Hiusten siistiminen tai samaan malliin leikkaus. Sisältää pesun.",
         price: "40€",
       },
       {
